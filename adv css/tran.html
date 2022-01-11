@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The KNH Times</title>
+    <style>
+      img {
+        border: 1px solid black;
+        border-radius: 50%;
+        transition: transform 5s ease-in-out;
+        /* rotate 3차원변형 가능, scale 사이즈 변형, translate 이동 skew 비스듬히 기울기
+        3d 차원 픽셀 이동 margin padding 적용 불가 */
+      }
+      img:hover {
+        transform: rotateY(85deg) rotateX(20deg) scale(0.5);
+      }
+      a {
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 30px;
+        transition: background-color 10s ease-in-out, color 5s ease-in-out, border-radius 5s ease-in-out;
+        /* all a -> a hover 모든 요소 교체  */
+        /* ease browser 에게 어떻게 변할건지 명령  https://matthewlein.com/tools/ceaser 명령어 모음 */
+      }
+      a:hover {
+        border-radius: 15px;
+        color: tomato;
+        background-color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+      <a href="#">Go Home</a>
+      <img src="img/logo.jpg" />
+      <span>alialialialiali</span>
+  </body>
+</html>

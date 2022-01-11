@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The KNH Times</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+        color: tomato;
+      }
+      div p span {
+        color: white;
+      }
+      div > span {
+        font-size: 20px;
+      }
+      p + span {
+        text-decoration: underline;
+      }
+      p ~ span {
+        background-color: chartreuse;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sot amet consectetur
+        <span>inside</span>
+      </p>
+      <address>hi</address>
+      <span>hello</span>
+    </div>
+  </body>
+</html>
