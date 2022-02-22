@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friend - Kokoa talk</title>
+    <title>Chat - Kokoa talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -27,67 +27,41 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header_title">Friends</h1>
+        <h1 class="screen-header_title">Chats</h1>
         <div class="screen-header_icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
-    
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i> Friends' Names Display 
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">    
+    <main class="main-screen">    
         <div class="user-component">
             <!-- .class_column*2 매크로 -->
             <div class="user-component_column">
                 <img src="https://th.bing.com/th/id/R.b250f9f4822c59a3792b53d92f88466f?rik=Pl1LYyfProGAVQ&riu=http%3a%2f%2fblogfiles.naver.net%2f20150427_104%2fninevincent_14301227921235lUld_JPEG%2fkakao_3.jpg&ehk=ZkkFWgKHBMXjSAkwPd%2b2xEaXMrPCwYvc2nz9IX3xJeY%3d&risl=&pid=ImgRaw&r=0" 
-                class="user-component_avatar user-component_avatar--xl" />
+                class="user-component_avatar user-component_avatar" />
                 <div class="user-component_text">
                     <h4 class="user-component_title">Nicolas</h4>
-                    <h6 class="user-component_subtitle">hello subtitle</h6>
+                    <h6 class="user-component_subtitle">Please check My Kakao Acount Info</h6>
                 </div>
             </div>
-            <div class="user-component_column"></div>        
-        </div>
-        <div class="friends-screen_channel">
-            <div class="friends-screen_channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component">
-                <!-- .class_column*2 매크로 -->
-                <div class="user-component_column">
-                    <img src="https://th.bing.com/th/id/R.b250f9f4822c59a3792b53d92f88466f?rik=Pl1LYyfProGAVQ&riu=http%3a%2f%2fblogfiles.naver.net%2f20150427_104%2fninevincent_14301227921235lUld_JPEG%2fkakao_3.jpg&ehk=ZkkFWgKHBMXjSAkwPd%2b2xEaXMrPCwYvc2nz9IX3xJeY%3d&risl=&pid=ImgRaw&r=0" 
-                    class="user-component_avatar user-component_avatar--sm" />
-                    <div class="user-component_text">
-                        <h4 class="user-component_title user-componenet_tittle--not-bold">Channel</h4>
-                        <!-- <h6 class="user-component_subtitle">hello subtitle</h6> -->
-                    </div>
-                </div>
-                <div class="user-component_column">
-                   <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                   </div>
-                </div> 
-            </div>
+            <div class="user-component_column">
+                <span class="user-component_time">21:22</span>
+                <div class="badge">1</div>
+            </div>        
         </div>
     </main>
-
     <!-- nav>ul>li*4>a -->
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_btn">
-                <a class="nav_link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+                <a class="nav_link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
             </li>
             <li class="nav_btn">
                 <a class="nav_link" href="chats.html">
                     <span class="nav_notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i></a>
+                    <i class="fas fa-comment fa-2x"></i></a>
             </li>
             <li class="nav_btn">
                 <a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i></a>

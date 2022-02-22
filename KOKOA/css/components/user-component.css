@@ -30,6 +30,16 @@
     height: 60px;
     border-radius: 25px;
 }
-.user-componenet_tittle--not-bold {
+.user-component_tittle--not-bold {
     font-weight: 400;
+}
+.user-component_column:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:rgba(0, 0, 0, 0.4);
+}
+.user-component_time {
+    margin-bottom: 10px;
+    display: block;
 }
